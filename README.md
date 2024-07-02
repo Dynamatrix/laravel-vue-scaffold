@@ -14,7 +14,7 @@ The laravel-vue scaffold is a template repository usable for new projects that r
 - MySQL
 
 ### Setup
-You can use this scaffold by pulling it and changing the git remote, or by using `composer install dynamatrix/laravel-vue`.
+You can use this scaffold by pulling it and changing the git remote, or by using `composer create-project dynamatrix/laravel-vue`.
 You can find the scaffold on [packagist](https://packagist.org/packages/dynamatrix/laravel-vue).
 
 #### Prerequisites:
