@@ -14,8 +14,8 @@ The laravel-vue scaffold is a template repository usable for new projects that r
 - MySQL
 
 ### Setup
-We'll presume in the setup that you've already used this as a template in a new repository. If you haven't, please
-[make sure you do](https://github.com/new?owner=mango-software&template_name=laravel-vue-scaffold&template_owner=mango-software).
+You can use this scaffold by pulling it and changing the git remote, or by using `composer install dynamatrix/laravel-vue`.
+You can find the scaffold on [packagist](https://packagist.org/packages/dynamatrix/laravel-vue).
 
 #### Prerequisites:
 - MySQL database (MariaDB is recommended) with database and user:
@@ -30,17 +30,8 @@ For the configuration, please read [this article by DigitalOcean](https://www.di
 - Node 20.12.x
 - PHP 8.3.x
 
-#### Cloning
-You'll need to develop and host the application you're working on locally, which means you need to
-`git clone` the repository, as it's private;
-[you'll need to add an SSH key to your Github account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
-then, clone using:
-```shell
-git clone git@github.com:mango-software/<repo-name>.git
-```
-
 #### Installation
-After cloning, if you have Node and PHP installed; you may continue by using the installers:
+After setup, if you have Node and PHP installed; you may continue by using the installers:
 ```shell
 $ npm install
 $ composer install
@@ -51,6 +42,8 @@ After that, you may run the application using
 $ php artisan serve
 $ npm run watch
 ```
+
+Axios is installed for the communication between front-end and backend. You may use Axios to make api calls to the laravel backend.
 
 For information on how to use Vue, Laravel, SCSS, Tailwind and Mysql:
 - https://laravel.com/docs
