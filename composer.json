@@ -1,8 +1,8 @@
 {
-    "name": "laravel/laravel",
+    "name": "dynamatrix/laravel-vue",
     "type": "project",
-    "description": "The skeleton application for the Laravel framework.",
-    "keywords": ["laravel", "framework"],
+    "description": "A laravel and vue combination supporting a laravel backend and a vue frontend.",
+    "keywords": ["laravel", "framework", "vue", "dynamatrix", "hybrid"],
     "license": "MIT",
     "require": {
         "php": "^8.2",
